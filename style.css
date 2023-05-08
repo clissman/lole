@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    background-image: url("hole.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    
+}
+
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dancer {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  animation: 0.9s ease-in 1 whee forwards;
+}
+
+@keyframes whee {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg) scale(0%); 
+    top: 50%;
+    left: 50%;
+  }
+}
