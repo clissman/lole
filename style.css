@@ -26,11 +26,11 @@ body {
 
 @keyframes whee {
   from {
-    transform: rotate(0);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(360deg) scale(0%); 
-    top: 50%;
-    left: 50%;
+    transform: rotate(0deg) scale(0%); 
+    top: 45%;
+    left: 60%;
   }
 }
