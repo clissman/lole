@@ -1,4 +1,4 @@
-const intervalID = setInterval(createDancer, 100);
+const intervalID = setInterval(createDancer, 75);
 
 function createDancer(e) {
   const dancer = document.createElement("p");
